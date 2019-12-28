@@ -1,0 +1,16 @@
+{
+    "name": "Harry Potter character guide",
+    "short_name": "hp guide",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "description": "A harry potter character guide application.",
+    "icons": [
+        {
+        "src": "public/icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        }
+    ]
+}
