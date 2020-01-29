@@ -1,12 +1,3 @@
-function printName() {
-    var myImg = document.querySelector(".app-logo");
-    console.log(myImg.clientWidth, myImg.clientHeight);
-    var team = document.getElementById("teams").value;
-    console.log(team);
-    var qtd = document.getElementById("qtd").value;
-    console.log(qtd)
-}
-
 function titleize(text) {
     var result = text;
     result = result.toLowerCase().replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
